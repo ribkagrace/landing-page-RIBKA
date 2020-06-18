@@ -16,14 +16,14 @@ color : #3c3c3c !important;
 margin-right: 24px;
 }
 .nav-item.active{
-    color: #5525ed !important;
+    color: grey!important;
 }
 .nav-item:hover {
-    color: #5525ed !important;
+    color: grey !important;
 }
 .jumbotron{
     height: 360px;
-    background-image: url(../image/jumbotron/5.jpg) ;
+    background-image: url(../img/jumbotron/4.jpg) ;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,8 +51,8 @@ margin-right: 24px;
     color: grey;
 }
 footer{
-margin-top: 120px;
-margin-bottom: 60px;
+margin-top: 200px;
+margin-bottom: 0px;
 text-align: center;
 font-weight: 400;
 color: grey;
@@ -60,24 +60,16 @@ color: grey;
 
 /*custom-color*/
  .bg-ungu {
-   background-color: #5525ed !important;
+   background-color: #483D8B!important;
    border: 0;
  }
 .text-bold{
     font-weight: 600 !important;
 }
-.informasi p{
-font-size: 16;
-color: grey;
-}
-.informasi{
-    background-color: #dbdbdb;
-    margin-top: -35px;
-}
 .content-image{
     height: 64px;
     width: 64px;
-   background-color: #5525ed !important;
+   background-color: grey !important;
    border-radius: 50%;
    padding: 20px;
    margin: auto;
@@ -86,7 +78,6 @@ color: grey;
     font-size: 26px;
     color: white;
 }
-
  /*view desktop*/
 @media (min-width: 992px) {
 .navbar{
@@ -102,7 +93,7 @@ color: grey;
     }
 .jumbotron{
         height: 460px;
-        background-image: url(../image/jumbotron/5.jpg) ;
+        background-image: url(../img/jumbotron/4.jpg) ;
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -110,14 +101,14 @@ color: grey;
     }
 .text-jumbotron{
         margin-top: 100px;
+        text-align: center;
     }     
 .text-jumbotron h1{
     font-weight: 400;
     font-size: 36px;
+    margin-top: 100px;
 }
 .text-jumbotron p{
     font-size: 18px;
 }
-
-
 }
